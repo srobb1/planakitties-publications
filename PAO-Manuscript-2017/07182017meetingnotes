@@ -1,0 +1,102 @@
+make new terms for reagions: biotype specific. 
+(1) SMR: making limited_to etc = addition of new relationship terms to clarify in tissue instance. 
+eld is still fixing up reproductive section
+stn will then take over and do muscle and neuro relationships 
+SMR will figure out CLpart_of NCBITaxon:XXXX to indentify planariasn specific CL terms 
+SMR- specific_to_stage 
+
+GENERAL:addition of manus brought up idea of expanding synonym (ie. racing stripe, belly etc) re parent 
+ON TECH: fia suggested in the github to bitbucket switch to have separate repos for indiv pub events 
+
+(1) FURTHER RELATIONSHIPS TO ADD: 
+excluded_from
+not_present_in
+specific_to
+limited_to
+specific_to 
+ 
+WE NEED CLEAR RULES AND TO REDUCE AUTHORITATIVE STRESS 
+
+WITH RESPECT TO ZFAs post-composed method to deal with composites and reduce granularity:
+we have reproducible in situs that show reproducible spatial regions vision(definitive organism subdivision) 
+we should be higlighting in the paper that we have spatial regions (neck etc) 
+
+PROBLEM WITH REGIONS! Biotypes.
+parapharyngeal region will include testes - but only in sexual- how should we be dealing with this?
+has_part  
+excluded_from
+
+erin mentions working to make sure parent classes have most basic relationships
+
+parapharyngeal region
+has_part peripheral nervous system 
+has_part testes  Not in asxual, something about specific to testes 
+limted_to
+
+relationships can be qualified - rules can be applied to them. Fia thinks this exists (if not it should).
+
+not all defs have references- that's find for now- but upon next submission we need that to have confidence in the term 
+
+
+ON SUBMITTING- RULES
+highest level of confidence comes from literature
+
+1) in literature (first mention)
+2)agreed upon by XXX ? 
+
+minimum requirement:
+name
+definition
+citation
+
+submission without citation:
+email addresses of people who support term outside lab
+we send email verification?? 
+
+provide alternate justification 
+
+CEBIO star system rating confidence of terms
+back at who is the authority here. power to people this way. 
+
+neural plate in ZFA with their anterior and posterior timelines may have key to testes conditional problem. 
+
+ZFA has got around our organization problems with making more child classes (back at duplication)
+paraphayngeal reagion
+  sexual parapharyngeal region
+  asexual parapharyngeal region 
+  
+  bulkier but more intutive 
+  
+  PROBLEM SOLVED: duplicate and split as child classes 
+  
+  uptodate comprehensive and 
+  access versions 
+  submission of new terms 
+  modificaion of existing relationships
+  
+  we are trying to bring in the peers to input 
+  
+  DEPICTED_BY
+  may create problems with allowing outside sanchez lab to submit- legally w respect to already published images. Work 
+  submission and creation fo new term- depicted by submission will be helpful - including rules. 
+  
+  planosphere to refect ontology, plus information added. 
+  
+  smed gd2 is out there g browse
+  SIMRbase uses Jbrowse
+  
+  
+  Planosphere- the centralized resource? 
+  on making more rich pages for terms- will stowers need to hire people to become things like curators? they are tossing this around. 
+  add genes to publicatons ( like flybase curators) can tehse people add mroe info to gene pages 
+  dbxref with extra stuff added. special grants for resource related. through carnegie. 
+  
+  key figures from multiple papers. 
+  
+  depicted by needs legal help. 
+  future: x ref link to page on planosphere. 
+  can get around this by linking out to info pages hosted elsewhere. ontology defe page has x ref link out. 
+  
+ 
+  
+
