@@ -1,0 +1,65 @@
+STN checking adding new file 
+
+Outline below based ZFA paper- edit/cut/chop/regoranize/delete as needed. 
+STN current criticisms- they aren't the best at transitions and seem to jump around a bit...
+
+1.) Design considerations - ZFA 
+   A. Relationships: need of hierarcical and partonomic organization with respect to anatomy and developmental time 
+      i. examples of which relationships and how used
+      ii. reinformcement of how this cements hierarchy and partonomy with use of existing RO 
+        TABLE 1. table of relationships used 
+        FIGURE 1. ontological representation of zebrafish heart development (highlights relationshipsn and overall hierarchy) 
+    B. Development: pooling previous resource (anatomy dictionary) + CARO, how this differs from existing AOs and why 
+    C. Classes: human-readable- working on logical/ computable definitions for future 
+    D. Interoperability: reuse of CL classes and Xrefs for "cross-granularity partonomy queries" 
+      i. #terms xref'd in CL 
+      ii. unique entries and organization
+    E. Early work: on focus groups to generate start point
+      i. contributors have virtual publication 
+      ii. "grey-literature" referencing
+    F.Current numbers 
+      i. percent coverage of definitions
+      ii. part_of #
+      iii. develops_from #
+      iv. rates of term addition
+      v. identification of new terms (SourceForge tracke use)
+    G.Releases: on their checks before a new version rolls out
+      i. child classes match parents with respect to stages
+      ii. child stages fall within parental stage range
+      iii. develops_from requirements
+      iv. expression and phenotype annotation checks 
+  
+  
+2.) Content considersations -ZFA 
+    A. Active description requires some flexibility in completeness and willingness to adapt to community needs
+    B. On consensus: it's needed or they don't include it
+    
+3.) Design considerations- ZFS (staging)
+    A. Integrated Staging concurrent with ZFA- go on to explain organization 
+    
+4.) Anterior/Posterior modeling 
+    A. Axis with relationship to developmental A to P progression
+    FIGURE 2. representing AP development of midline
+
+5.) Using ZFA/ZFS for data annotation- THIS SHOULD BE IN OUR DISCUSSION SECTION
+    A. gene expression using post compositional approach on
+        i. Spatial ontology 
+        ii.GO
+        
+    B. phenotype data
+        i.mutants
+        ii. transgenics
+        
+    C.annotation of histological slides for Zebrafish Atlas project 
+
+6.) Search using ontology terms 
+    A. autocomplete in ZFIN
+    B. searches return classes that are ancestral and part_of
+   
+7.) Using ZFA as a collaborative framework
+    A.Bridging the gap between similar species- template as starting point for other projects
+      i.Medaka
+      ii. Xenopus
+      iii. Teleost AO
+      
+    
