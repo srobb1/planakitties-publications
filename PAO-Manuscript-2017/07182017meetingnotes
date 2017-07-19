@@ -1,21 +1,22 @@
-make new terms for reagions: biotype specific. 
+CURRENT PRIORITIES/TO DO: 
+make new terms for regions to faciliate biotype specific. 
 (1) SMR: making limited_to etc = addition of new relationship terms to clarify in tissue instance. 
 eld is still fixing up reproductive section
-stn will then take over and do muscle and neuro relationships 
+then stn will then take over and do muscle and neuro relationships 
 SMR will figure out CLpart_of NCBITaxon:XXXX to indentify planariasn specific CL terms 
-SMR- specific_to_stage 
+ 
 
-GENERAL:addition of manus brought up idea of expanding synonym (ie. racing stripe, belly etc) re parent 
-ON TECH: fia suggested in the github to bitbucket switch to have separate repos for indiv pub events 
+GENERAL:addition of manus brought up idea of expanding synonym (ie. racing stripe, belly etc)
+ON TECH: fia suggested in the github to bitbucket switch to have separate repos for indiv pub events, others agreed 
 
 (1) FURTHER RELATIONSHIPS TO ADD: 
 excluded_from
 not_present_in
 specific_to
 limited_to
-specific_to 
+specific_to <- THIS ONE WILL BE MOST HELPFUL FOR SEXUAL/ASEXUAL CLARIFICATIONS
  
-WE NEED CLEAR RULES AND TO REDUCE AUTHORITATIVE STRESS 
+WE NEED CLEAR RULES IMPLEMENTED TO REDUCE AUTHORITATIVE STRESS 
 
 WITH RESPECT TO ZFAs post-composed method to deal with composites and reduce granularity:
 we have reproducible in situs that show reproducible spatial regions vision(definitive organism subdivision) 
@@ -26,17 +27,17 @@ parapharyngeal region will include testes - but only in sexual- how should we be
 has_part  
 excluded_from
 
-erin mentions working to make sure parent classes have most basic relationships
+ELD: mentions working to make sure parent classes have most basic relationships- keep this in mind.
 
 parapharyngeal region
 has_part peripheral nervous system 
-has_part testes  Not in asxual, something about specific to testes 
-limted_to
+has_part testes  Not in asexual, something about specific to testes 
+limted_to ??
 
 relationships can be qualified - rules can be applied to them. Fia thinks this exists (if not it should).
 
 not all defs have references- that's find for now- but upon next submission we need that to have confidence in the term 
-
+which brings up:
 
 ON SUBMITTING- RULES
 highest level of confidence comes from literature
@@ -44,18 +45,18 @@ highest level of confidence comes from literature
 1) in literature (first mention)
 2)agreed upon by XXX ? 
 
-minimum requirement:
+what are our minimum requirements? :
 name
 definition
 citation
 
 submission without citation:
-email addresses of people who support term outside lab
+SMR: email addresses of people who support term outside lab
 we send email verification?? 
 
-provide alternate justification 
+will provide alternate justification (what that is... rather unclear)
 
-CEBIO star system rating confidence of terms
+SMR:CEBIO (not sure I've got that acronym right...) star system rating confidence of terms
 back at who is the authority here. power to people this way. 
 
 neural plate in ZFA with their anterior and posterior timelines may have key to testes conditional problem. 
@@ -65,10 +66,12 @@ paraphayngeal reagion
   sexual parapharyngeal region
   asexual parapharyngeal region 
   
-  bulkier but more intutive 
+  bulkier but more intutive but we should be going for intuitive with the goal PERSON USEABILITY
   
-  PROBLEM SOLVED: duplicate and split as child classes 
+  PROBLEM SOLVED: duplicate and split as child classes (we're going ZFAs route on this)
   
+  
+  ELD: thoughts on what the goal/market for this ontology is, 
   uptodate comprehensive and 
   access versions 
   submission of new terms 
@@ -80,22 +83,27 @@ paraphayngeal reagion
   may create problems with allowing outside sanchez lab to submit- legally w respect to already published images. Work 
   submission and creation fo new term- depicted by submission will be helpful - including rules. 
   
+  Thoughts on depited_by bring up larger scale organizational issues. What does the sum total of indovidual Sanchez digital pubs look like?
+  Does this get housed under planosphere? 
+  
   planosphere to refect ontology, plus information added. 
   
-  smed gd2 is out there g browse
+  SMR: smed gd2 is out there g browse
   SIMRbase uses Jbrowse
   
-  
-  Planosphere- the centralized resource? 
+  Planosphere- adaptive to become the centralized resource? MOST LIKELY YES. (sphere is all encompassing)
   on making more rich pages for terms- will stowers need to hire people to become things like curators? they are tossing this around. 
-  add genes to publicatons ( like flybase curators) can tehse people add mroe info to gene pages 
+  add genes to publicatons ( like flybase curators) can curators add info to gene pages? 
   dbxref with extra stuff added. special grants for resource related. through carnegie. 
   
   key figures from multiple papers. 
   
-  depicted by needs legal help. 
-  future: x ref link to page on planosphere. 
-  can get around this by linking out to info pages hosted elsewhere. ontology defe page has x ref link out. 
+  back to line 82: depicted by needs legal help.
+  SMR has work around likely- each lab hosts/pubs own journal-related information (thus "self" publishing)
+  looks like for us: ontology dbxref links to page on planosphere. Other lab provide us link to their info pages...
+
+
+
   
  
   
