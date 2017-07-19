@@ -4,6 +4,10 @@ make new terms for regions to faciliate biotype specific.
 eld is still fixing up reproductive section
 then stn will then take over and do muscle and neuro relationships 
 SMR will figure out CLpart_of NCBITaxon:XXXX to indentify planariasn specific CL terms 
+
+SMR & STN decide that SMR is still admin to keep simultaneous commits from turning into a hot mess.
+KEEP ALL COMMIT CHANGES TO CREATING A NEW BRANCH RATHER THAN COMMIT DIRECTLY TO MASTER. (starting with after stn submits these notes)
+This ensures all partied get notified via email of relevant updates.
  
 
 GENERAL:addition of manus brought up idea of expanding synonym (ie. racing stripe, belly etc)
@@ -98,10 +102,9 @@ paraphayngeal reagion
   
   key figures from multiple papers. 
   
-  back to line 82: depicted by needs legal help.
+  back to line 87: depicted by needs legal help.
   SMR has work around likely- each lab hosts/pubs own journal-related information (thus "self" publishing)
   looks like for us: ontology dbxref links to page on planosphere. Other lab provide us link to their info pages...
-
 
 
   
